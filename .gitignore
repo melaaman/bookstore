@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+package-lock.json
 
 # Playwright
 tests/playwright-report/
@@ -9,6 +10,10 @@ tests/test-results/
 app/.next/
 app/dist/
 app/build/
+
+# SQLite dev database
+app/prisma/dev.db
+app/prisma/dev.db-journal
 
 # Environment files
 .env
