@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Playwright
+tests/playwright-report/
+tests/test-results/
+
+# Build outputs
+app/.next/
+app/dist/
+app/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

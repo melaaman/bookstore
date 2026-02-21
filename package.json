@@ -1,0 +1,14 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "app",
+    "tests"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=app",
+    "test": "npm run test --workspace=tests",
+    "test:ui": "npm run test:ui --workspace=tests"
+  }
+}
